@@ -25,7 +25,7 @@ processResources {
 	def props = [
 			"version": project.version,
 			"minecraft_version": project.minecraft_version
-	];
+	]
 
 	filesMatching("fabric.mod.json") {
 		expand props
