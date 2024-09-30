@@ -3,7 +3,7 @@
 	"id": "armor-toughness-bar",
 	"version": "${version}",
 	"name": "Armor Toughness Bar",
-	"description": "A dead simple armor toughness bar",
+	"description": "A dead simple armor toughness bar.",
 	"authors": [
 		"pbone"
 	],
@@ -19,8 +19,7 @@
 	"depends": {
 		"fabricloader": ">=0.16.5",
 		"minecraft": "~${minecraft_version}",
-		"java": ">=17",
-		"fabric-api": "*"
+		"java": ">=17"
 	},
 	"custom": {
 		"modmenu": {
