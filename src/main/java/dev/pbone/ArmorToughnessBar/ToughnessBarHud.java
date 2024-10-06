@@ -73,17 +73,17 @@ public class ToughnessBarHud {
     }
 
 	public enum ToughnessIcon {
-		FULL("full"),
-		HALF("half"),
-		EMPTY("empty");
+		FULL("toughness_full.png"),
+		HALF("toughness_half.png"),
+		EMPTY("toughness_empty.png");
 
 		public static final int WIDTH = 9;
 		public static final int HEIGHT = 9;
 
 		private final Identifier texture;
 
-		ToughnessIcon(String suffix) {
-			this.texture = Identifier.of(MOD_ID, "textures/gui/toughness_" + suffix + ".png");
+		ToughnessIcon(String texture) {
+			this.texture = Identifier.of(MOD_ID, "textures/gui/" + texture);
 		}
 
 		public void draw(DrawContext context, int x, int y) {
